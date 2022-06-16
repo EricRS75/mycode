@@ -1,24 +1,4 @@
-#!/usr/bin/python3
-
-# from python std library
-import csv
-
-# python3 -m pip install np
-import numpy as np
-# python3 -m pip install matplotlib
-import matplotlib
-matplotlib.use('Agg')
-# sudo apt install python3-tk
-import matplotlib.pyplot as plt
-
-def parsecsvdata():
-    """returns a list. [0] is LAN and [1] WAN data"""
-    summary = [] # list that will contain [(LAN), (WAN)]
-
-    # open csv data
-    with open("/home/student/mycode/graphing/2018summary.csv",\
-     "r") as downtime:
-        # parse csv data with csv.reader
+ data with csv.reader
         downdata = csv.reader(downtime, delimiter=",")
         for row in downdata:
             rowdat = (int(row[0]), int(row[1]), int(row[2]), int(row[3]))
@@ -48,12 +28,8 @@ def main():
     plt.yticks(np.arange(0, 81, 10))
     plt.legend((p1[0], p2[0]), ("LAN", "WAN"))
 
-    # SAVE the graph locally
-    plt.savefig("/home/student/mycode/graphing/2018summaryv2.png")
-    # Save to "~/static"
-    plt.savefig("/home/student/static/2018summaryv2.png")       
-    print("Graph created.")
+    # SAVE the g")
 
-if __name__ == "__main__":
-    main()
+
+main()
 
