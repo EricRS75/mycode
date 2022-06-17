@@ -1,0 +1,12 @@
+2022-06-16 23:57:56.215659 10.1.0.1 host:sw22 severity:1 command:interface eth1/2 no shutdown
+2022-06-16 23:57:59.622368 10.2.0.1 host:sw5 severity:1 command:interface eth1/1 no shutdown
+2022-06-16 23:58:03.028052 10.3.0.1 host:sw12 severity:1 command:interface eth1/3 no shutdown
+2022-06-16 23:58:04.029470 10.3.0.1 host:sw12 severity:1 command:interface eth1/5 no shutdown
+2022-06-17 00:00:10.950505 10.1.0.1 host:sw22 severity:1 command:interface eth1/2 no shutdown
+2022-06-17 00:00:14.356316 10.2.0.1 host:sw5 severity:1 command:interface eth1/1 no shutdown
+2022-06-17 00:00:17.762217 10.3.0.1 host:sw12 severity:1 command:interface eth1/3 no shutdown
+2022-06-17 00:00:18.763774 10.3.0.1 host:sw12 severity:1 command:interface eth1/5 no shutdown
+2022-06-17 14:12:14.207438 10.1.0.1 host:sw22 severity:1 command:interface eth1/2 no shutdown
+2022-06-17 14:12:17.613375 10.2.0.1 host:sw5 severity:1 command:interface eth1/1 no shutdown
+2022-06-17 14:12:21.019179 10.3.0.1 host:sw12 severity:1 command:interface eth1/3 no shutdown
+2022-06-17 14:12:22.020779 10.3.0.1 host:sw12 severity:1 command:interface eth1/5 no shutdown
