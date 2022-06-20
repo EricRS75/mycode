@@ -5,6 +5,7 @@ by Eric R. Schechter for a Python certification"""
 import re
 import os
 import crayons
+import time
 from random import randint
 
 def main():
@@ -65,7 +66,10 @@ def main():
     score = (correct/number)*100
     print(score, end='')
     print("%")
-
+    #Logging the game
+    rightnow = time.strftime("%Y-%m-%d:%H-%M-%S")
+    with open('gamelogfile', 'a') as outfile:
+        outfile.write(f'Player {name} got {correct} question(s) correct out of {number} asked, for a final score of {score}% on {rightnow}\n')
     print("Your game has been logged")
 
 
